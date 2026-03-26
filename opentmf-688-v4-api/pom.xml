@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-688-v4-api</artifactId>
+  <name>opentmf-688-v4-api</name>
   <version>4.0.0.5-SNAPSHOT</version>
   <description>
 TMF-688: Event Management API, version: 4.0.0

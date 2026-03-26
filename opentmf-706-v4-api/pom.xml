@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-706-v4-api</artifactId>
+  <name>opentmf-706-v4-api</name>
   <version>4.0.0.5-SNAPSHOT</version>
   <description>
 TMF-706: Test Data Management API, version: 4.0.0

@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-720-v4-api</artifactId>
+  <name>opentmf-720-v4-api</name>
   <version>4.0.0.5-SNAPSHOT</version>
   <description>
 TMF-720: Digital Identity Management API, version: 4.0.0

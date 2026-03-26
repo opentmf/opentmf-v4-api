@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-642-v4-api</artifactId>
+  <name>opentmf-642-v4-api</name>
   <version>4.0.0.5-SNAPSHOT</version>
   <description>
 TMF-642: Alarm Management API, version: 4.0.0

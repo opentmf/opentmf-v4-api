@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-641-v4-api</artifactId>
+  <name>opentmf-641-v4-api</name>
   <version>4.1.0.5-SNAPSHOT</version>
   <description>
 TMF-641: Service Ordering Management API, version: 4.1.0

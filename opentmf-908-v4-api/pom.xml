@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-908-v4-api</artifactId>
+  <name>opentmf-908-v4-api</name>
   <version>4.0.0.5-SNAPSHOT</version>
   <description>
 TMF-908: IoT Agent and Device Management API, version: 4.0.0

@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-product-v4-api</artifactId>
+  <name>opentmf-product-v4-api</name>
   <version>4.1.0.0-SNAPSHOT</version>
   <description>
     

@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-622-v4-api</artifactId>
+  <name>opentmf-622-v4-api</name>
   <version>4.0.0.5-SNAPSHOT</version>
   <description>
 TMF-622: Product Ordering Management API, version: 4.0.0

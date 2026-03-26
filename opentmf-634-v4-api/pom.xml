@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-634-v4-api</artifactId>
+  <name>opentmf-634-v4-api</name>
   <version>4.1.0.5-SNAPSHOT</version>
   <description>
 TMF-634: Resource Catalog Management API, version: 4.1.0

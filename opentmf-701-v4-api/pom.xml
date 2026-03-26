@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-701-v4-api</artifactId>
+  <name>opentmf-701-v4-api</name>
   <version>4.1.0.5-SNAPSHOT</version>
   <description>
 TMF-701: Process Flow Management API, version: 4.1.0

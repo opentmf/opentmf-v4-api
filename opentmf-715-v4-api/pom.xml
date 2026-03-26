@@ -9,6 +9,7 @@
   </parent>
 
   <artifactId>opentmf-715-v4-api</artifactId>
+  <name>opentmf-715-v4-api</name>
   <version>4.0.0.5-SNAPSHOT</version>
   <description>
 TMF-715: Warranty Management, version: 4.0.0
