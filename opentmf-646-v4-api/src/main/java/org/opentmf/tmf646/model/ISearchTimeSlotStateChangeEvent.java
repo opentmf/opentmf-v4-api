@@ -1,0 +1,23 @@
+package org.opentmf.tmf646.model;
+
+import org.opentmf.common.model.IAddressableEventBase;
+
+/**
+ * The notification data structure.
+ *
+ * <p><br/>
+ * <strong>Referring TMF artifacts:</strong>
+ * <ul>
+ *   <li>TMF-646: Appointment Management API</li>
+ * </ul>
+ * </p>
+ *
+ * @author Gökhan Demir
+ */
+public interface ISearchTimeSlotStateChangeEvent extends IAddressableEventBase {
+
+  /**
+   * The event data structure.
+   */
+  ISearchTimeSlotStateChangeEventPayload getEvent();
+}

@@ -1,0 +1,23 @@
+package org.opentmf.tmf654.model;
+
+import org.opentmf.common.model.IEventBase;
+
+/**
+ * The notification data structure.
+ *
+ * <p><br/>
+ * <strong>Referring TMF artifacts:</strong>
+ * <ul>
+ *   <li>TMF-654: Prepay Balance Management API</li>
+ * </ul>
+ * </p>
+ *
+ * @author Gökhan Demir
+ */
+public interface IAdjustBalanceCancelEvent extends IEventBase {
+
+  /**
+   * The event data structure.
+   */
+  IAdjustBalanceCancelEventPayload getEvent();
+}

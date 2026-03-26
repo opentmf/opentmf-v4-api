@@ -1,0 +1,24 @@
+package org.opentmf.tmf634.model;
+
+/**
+ * The event data structure.
+ *
+ * <p><br/>
+ * <strong>Referring TMF artifacts:</strong>
+ * <ul>
+ *   <li>TMF-634: Resource Catalog Management API</li>
+ * </ul>
+ * </p>
+ *
+ * @author Gökhan Demir
+ */
+public interface IResourceCatalogChangeEventPayload {
+
+  /**
+   * The root entity for resource catalog management.
+   * <br/>A resource catalog is a group of resource specifications made available
+   * through resource candidates that an organization provides to the consumers
+   * (internal consumers like its employees or B2B customers or B2C customers).
+   */
+  IResourceCatalog getResourceCatalog();
+}

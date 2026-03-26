@@ -1,0 +1,27 @@
+package org.opentmf.tmf705.model;
+
+import org.opentmf.general.model.IManagedArtifact;
+
+/**
+ * A managed provisioning artifact resource.
+ *
+ * <p><br/>
+ * <strong>Required:</strong> provisioningArtifactDefinition<br/>
+ * </p>
+ *
+ * <p><br/>
+ * <strong>Referring TMF artifacts:</strong>
+ * <ul>
+ *   <li>TMF-705: Test Environment Management API</li>
+ * </ul>
+ * </p>
+ *
+ * @author Gökhan Demir
+ */
+public interface IProvisioningArtifact extends IManagedArtifact {
+
+  /**
+   * Provisioning artifact definition.
+   */
+  IProvisioningArtifactDefinition getProvisioningArtifactDefinition();
+}
