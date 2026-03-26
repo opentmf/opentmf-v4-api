@@ -94,6 +94,6 @@ If a direct dependency is required:
 <dependency>
     <groupId>org.opentmf.model</groupId>
     <artifactId>opentmf-common-v4-api</artifactId>
-    <version>4.2.0.0</version>
+    <version>4.2.0.10</version>
 </dependency>
 ```

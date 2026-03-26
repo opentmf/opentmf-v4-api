@@ -27,6 +27,6 @@ If a direct dependency is required:
 <dependency>
     <groupId>org.opentmf.model</groupId>
     <artifactId>opentmf-partner-v4-api</artifactId>
-    <version>4.0.0.0</version>
+    <version>4.0.0.10</version>
 </dependency>
 ```

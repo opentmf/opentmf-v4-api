@@ -20,7 +20,7 @@
     <dependency>
       <groupId>org.opentmf.model</groupId>
       <artifactId>opentmf-service-v4-api</artifactId>
-      <version>4.2.0.0-SNAPSHOT</version>
+      <version>4.2.0.10-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
