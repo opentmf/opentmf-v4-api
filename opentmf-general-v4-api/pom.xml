@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.opentmf.model</groupId>
     <artifactId>opentmf-v4-api</artifactId>
-    <version>4.1.0</version>
+    <version>4.1.1-SNAPSHOT</version>
   </parent>
 
   <artifactId>opentmf-general-v4-api</artifactId>
   <name>opentmf-general-v4-api</name>
-  <version>4.1.0.0</version>
+  <version>4.1.0.1-SNAPSHOT</version>
   <description>
         
     - TMF-621: Trouble Ticket Management API, version: 4.0.0
@@ -48,7 +48,7 @@
     <dependency>
       <groupId>org.opentmf.model</groupId>
       <artifactId>opentmf-common-v4-api</artifactId>
-      <version>4.2.0.0</version>
+      <version>4.2.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
