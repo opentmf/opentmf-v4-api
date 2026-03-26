@@ -15,6 +15,6 @@ depend on the interfaces directly:
 <dependency>
     <groupId>org.opentmf.model</groupId>
     <artifactId>opentmf-666-v4-api</artifactId>
-    <version>4.0.0.5</version>
+    <version>4.0.0.10</version>
 </dependency>
 ```
