@@ -4,7 +4,7 @@
 
   <groupId>org.opentmf.model</groupId>
   <artifactId>opentmf-v4-api</artifactId>
-  <version>4.0.5</version>
+  <version>4.0.6-SNAPSHOT</version>
   <name>opentmf-v4-api</name>
 
   <description>
@@ -273,7 +273,7 @@
     <url>https://github.com/opentmf/opentmf-v4-api</url>
     <connection>scm:git:git@github.com:opentmf/opentmf-v4-api.git</connection>
     <developerConnection>scm:git:git@github.com:opentmf/opentmf-v4-api.git</developerConnection>
-    <tag>opentmf-v4-api-4.0.5</tag>
+    <tag>HEAD</tag>
   </scm>
 
 </project>
