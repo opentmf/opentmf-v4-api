@@ -5,12 +5,12 @@
   <parent>
     <groupId>org.opentmf.model</groupId>
     <artifactId>opentmf-v4-api</artifactId>
-    <version>4.1.1-SNAPSHOT</version>
+    <version>4.1.1</version>
   </parent>
 
   <artifactId>opentmf-677-v4-api</artifactId>
   <name>opentmf-677-v4-api</name>
-  <version>4.0.0.11-SNAPSHOT</version>
+  <version>4.0.0.11</version>
   <description>
     TMF-677: Usage Consumption Management API, version: 4.0.0
     Hierarchical model classes with polymorphism.
@@ -20,7 +20,7 @@
     <dependency>
       <groupId>org.opentmf.model</groupId>
       <artifactId>opentmf-product-v4-api</artifactId>
-      <version>4.1.0.11-SNAPSHOT</version>
+      <version>4.1.0.11</version>
     </dependency>
   </dependencies>
 
