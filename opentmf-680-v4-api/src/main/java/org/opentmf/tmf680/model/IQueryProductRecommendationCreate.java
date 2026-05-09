@@ -7,8 +7,8 @@ import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IProductOrderRef;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
+import org.opentmf.common.model.IShoppingCartRef;
 import org.opentmf.customer.model.IRecommendationItem;
-import org.opentmf.customer.model.IShoppingCartRef;
 
 /**
  * Recommendation API is used to recommend offering quickly based on the history

@@ -1,6 +1,6 @@
 package org.opentmf.common.model;
 
-import java.util.List;
+import java.net.URI;
 
 /**
  * EntitySpecification is a class that offers characteristics to describe a type
@@ -32,38 +32,15 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface IEntitySpecification extends IAssociationBase {
+public interface IEntitySpecification extends IUsageSpecificationUpdate {
 
   /**
-   * Attachments that may be of relevance to this specification, such as picture,
-   * document, media.
+   * Hyperlink reference.
    */
-  List<? extends IAttachmentRefOrValue> getAttachments();
+  URI getHref();
 
   /**
-   * Relationship to another specification.
+   * unique identifier.
    */
-  List<? extends IEntitySpecificationRelationship> getEntitySpecRelationships();
-
-  /**
-   * isBundle determines whether specification represents a single specification
-   * (false), or a bundle of specifications (true).
-   */
-  Boolean getIsBundle();
-
-  /**
-   * Parties who manage or otherwise have an interest in this specification.
-   */
-  List<? extends IRelatedParty> getRelatedParties();
-
-  /**
-   * List of characteristics that the entity can take.
-   */
-  List<? extends ICharacteristicSpecification> getSpecCharacteristics();
-
-  /**
-   * The reference object to the schema and type of target entity which is
-   * described by a specification.
-   */
-  ITargetEntitySchema getTargetEntitySchema();
+  String getId();
 }

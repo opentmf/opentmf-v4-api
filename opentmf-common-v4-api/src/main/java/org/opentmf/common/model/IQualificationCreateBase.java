@@ -6,10 +6,12 @@ import java.time.OffsetDateTime;
  * Synthesized abstract parent for 4 model classes.
  *
  * <p><br/>
- * <strong>Referring TMF artifacts:</strong>
+ * <strong>Direct descendants:</strong>
  * <ul>
- *   <li>TMF-645: Service Qualification Management API</li>
- *   <li>TMF-714: Work Qualification Management</li>
+ *   <li>CheckServiceQualificationCreate (645)</li>
+ *   <li>CheckWorkQualificationCreate (714)</li>
+ *   <li>QueryServiceQualificationCreate (645)</li>
+ *   <li>QueryWorkQualificationCreate (714)</li>
  * </ul>
  * </p>
  *

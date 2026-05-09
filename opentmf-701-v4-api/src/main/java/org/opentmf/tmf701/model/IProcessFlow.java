@@ -3,6 +3,7 @@ package org.opentmf.tmf701.model;
 import java.net.URI;
 import java.time.OffsetDateTime;
 import java.util.List;
+import org.opentmf.common.model.ITaskFlowRef;
 
 /**
  *

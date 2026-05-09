@@ -6,13 +6,15 @@ import java.util.List;
  * Synthesized abstract parent for 6 model classes.
  *
  * <p><br/>
- * <strong>Referring TMF artifacts:</strong>
+ * <strong>Direct descendants:</strong>
  * <ul>
- *   <li>TMF-633: Service Catalog Management API</li>
- *   <li>TMF-635: Usage Management API</li>
- *   <li>TMF-662: Entity Catalog Management API</li>
- *   <li>TMF-713: Work Management</li>
- *   <li>TMF-715: Warranty Management</li>
+ *   <li>AiContractSpecificationUpdate (915)</li>
+ *   <li>EntitySpecificationUpdate (662)</li>
+ *   <li>ServiceSpecificationUpdate (633)</li>
+ *   <li>UsageSpecificationCreate (635)</li>
+ *   <li>UsageSpecificationUpdate (635)</li>
+ *   <li>WarrantySpecificationUpdate (715)</li>
+ *   <li>WorkSpecificationUpdate (713)</li>
  * </ul>
  * </p>
  *

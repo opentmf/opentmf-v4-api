@@ -6,6 +6,8 @@ import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IEntityRef;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IRule;
+import org.opentmf.common.model.IRuleUpdate;
+import org.opentmf.common.model.ITemplateRef;
 import org.opentmf.common.model.ITimePeriod;
 
 /**

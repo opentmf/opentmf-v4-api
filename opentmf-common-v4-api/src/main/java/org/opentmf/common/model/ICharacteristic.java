@@ -68,7 +68,7 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface ICharacteristic extends IExtensible {
+public interface ICharacteristic extends IAppliedBillingRateCharacteristic {
 
   /**
    * List of: Another Characteristic that is related to the current
@@ -80,16 +80,4 @@ public interface ICharacteristic extends IExtensible {
    * Unique identifier of the characteristic.
    */
   String getId();
-
-  /**
-   * Name of the characteristic.
-   */
-  String getName();
-
-  Object getValue();
-
-  /**
-   * Data type of the value of the characteristic.
-   */
-  String getValueType();
 }

@@ -20,12 +20,7 @@ package org.opentmf.common.model;
  *
  * @author Gökhan Demir
  */
-public interface IHeaderItem extends IExtensible {
-
-  /**
-   * The name of the header item, e.g. locale.
-   */
-  String getName();
+public interface IHeaderItem extends IRuleUpdate {
 
   /**
    * The value of the header item, e.g. en-us.

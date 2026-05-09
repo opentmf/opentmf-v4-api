@@ -1,6 +1,8 @@
 package org.opentmf.tmf716.model;
 
 import java.util.List;
+import org.opentmf.common.model.ICapacityRef;
+import org.opentmf.common.model.ICapacitySpecRef;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IPlaceRefOrValue;
 

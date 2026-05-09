@@ -2,7 +2,8 @@ package org.opentmf.tmf686.model;
 
 import java.util.List;
 import org.opentmf.common.model.ICharacteristic;
-import org.opentmf.general.model.IEdgeCreateBase;
+import org.opentmf.common.model.IEdgeRef;
+import org.opentmf.general.model.IEdgeBase;
 
 /**
  * A Vertex is connected by directed Edges to other vertices in a Graph.
@@ -21,16 +22,12 @@ import org.opentmf.general.model.IEdgeCreateBase;
  *
  * @author Gökhan Demir
  */
-public interface IVertexCreate extends IEdgeCreateBase {
+public interface IVertexCreate extends IEdgeBase {
 
   /**
    * Directed Edges which this Vertex is connected by. (optional, read only).
    */
   List<? extends IEdgeRef> getEdges();
-
-  IGraphRef getGraph();
-
-  IGraphRef getSubGraph();
 
   /**
    * List of: Describes a given characteristic of an object or entity through a

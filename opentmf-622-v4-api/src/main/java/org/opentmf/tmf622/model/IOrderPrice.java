@@ -1,10 +1,8 @@
 package org.opentmf.tmf622.model;
 
-import java.util.List;
 import org.opentmf.common.model.IBillingAccountRef;
-import org.opentmf.common.model.ICartPriceBase;
 import org.opentmf.common.model.IPrice;
-import org.opentmf.common.model.IPriceAlteration;
+import org.opentmf.common.model.IPriceBase;
 
 /**
  * An amount, usually of money, that represents the actual price paid by the
@@ -19,7 +17,7 @@ import org.opentmf.common.model.IPriceAlteration;
  *
  * @author Gökhan Demir
  */
-public interface IOrderPrice extends ICartPriceBase {
+public interface IOrderPrice extends IPriceBase {
 
   /**
    * BillingAccount reference. A BillingAccount is a detailed description of a
@@ -32,11 +30,6 @@ public interface IOrderPrice extends ICartPriceBase {
    * percentage to apply for Price Alteration.
    */
   IPrice getPrice();
-
-  /**
-   * a structure used to describe a price alteration.
-   */
-  List<? extends IPriceAlteration> getPriceAlterations();
 
   /**
    * Could be minutes, GB...

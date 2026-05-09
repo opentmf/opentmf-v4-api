@@ -1,5 +1,7 @@
 package org.opentmf.tmf915.model;
 
+import org.opentmf.common.model.IAiContractSpecification;
+
 /**
  * The event data structure.
  *

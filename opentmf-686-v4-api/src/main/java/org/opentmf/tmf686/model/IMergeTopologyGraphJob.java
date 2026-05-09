@@ -1,6 +1,7 @@
 package org.opentmf.tmf686.model;
 
 import java.util.List;
+import org.opentmf.common.model.IGraphRef;
 
 /**
  * Merges two or more Graphs into a single graph.

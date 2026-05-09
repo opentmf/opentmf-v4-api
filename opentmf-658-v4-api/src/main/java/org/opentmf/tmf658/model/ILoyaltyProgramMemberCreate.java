@@ -6,6 +6,7 @@ import org.opentmf.common.model.IAgreementRef;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IContactMedium;
 import org.opentmf.common.model.ICreditProfile;
+import org.opentmf.common.model.ILoyaltyProgramProductRef;
 import org.opentmf.common.model.IPaymentMethodRef;
 import org.opentmf.common.model.IRoleTypeRef;
 import org.opentmf.common.model.ITimePeriod;

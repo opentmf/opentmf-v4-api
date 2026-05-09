@@ -7,12 +7,14 @@ import org.opentmf.common.model.IChannelRef;
 import org.opentmf.common.model.IContactMedium;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IMarketSegmentRef;
+import org.opentmf.common.model.IMarketingCampaignRef;
 import org.opentmf.common.model.IMoney;
 import org.opentmf.common.model.INote;
 import org.opentmf.common.model.IProductOfferingRef;
 import org.opentmf.common.model.IProductRef;
 import org.opentmf.common.model.IProductSpecificationRef;
 import org.opentmf.common.model.IRelatedParty;
+import org.opentmf.common.model.ISalesOpportunityRef;
 import org.opentmf.common.model.ITimePeriod;
 
 /**

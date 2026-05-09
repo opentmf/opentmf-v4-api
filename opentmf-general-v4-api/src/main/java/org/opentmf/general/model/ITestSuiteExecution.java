@@ -1,5 +1,6 @@
 package org.opentmf.general.model;
 
+import java.net.URI;
 
 /**
  * REST resource for the test suite execution lifecycle.
@@ -18,20 +19,15 @@ package org.opentmf.general.model;
  *
  * @author Gökhan Demir
  */
-public interface ITestSuiteExecution extends ITestExecution {
+public interface ITestSuiteExecution extends ITestSuiteExecutionCreate {
 
   /**
-   * The actual type of the target instance when needed for disambiguation.
+   * Hyperlink reference.
    */
-  String getAtReferredType();
+  URI getHref();
 
   /**
-   * Name of the related entity.
+   * unique identifier.
    */
-  String getName();
-
-  /**
-   * A reference to a managed test suite resource.
-   */
-  ITestSuiteRef getTestSuite();
+  String getId();
 }

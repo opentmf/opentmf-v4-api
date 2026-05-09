@@ -12,6 +12,8 @@ import org.opentmf.common.model.IProductPrice;
 import org.opentmf.common.model.IQuantity;
 import org.opentmf.common.model.IRelatedPartyWithContactInfo;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
+import org.opentmf.common.model.IRelatedShipment;
+import org.opentmf.common.model.IShipmentTrackingRef;
 
 /**
  *

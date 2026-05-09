@@ -2,6 +2,7 @@ package org.opentmf.tmf652.model;
 
 import java.time.OffsetDateTime;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IResourceOrderRef;
 
 /**
  * Request for cancellation an existing resource order

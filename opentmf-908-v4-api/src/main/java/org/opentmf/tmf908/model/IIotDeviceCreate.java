@@ -3,10 +3,13 @@ package org.opentmf.tmf908.model;
 import java.math.BigDecimal;
 import java.time.OffsetDateTime;
 import java.util.List;
+import org.opentmf.common.model.ICategoryType;
+import org.opentmf.common.model.IConfiguration;
 import org.opentmf.common.model.IGeographicLocation;
 import org.opentmf.common.model.INote;
 import org.opentmf.common.model.IPlace;
 import org.opentmf.common.model.IRelatedParty;
+import org.opentmf.common.model.IResourceCharacteristic;
 import org.opentmf.common.model.IResourceRelationship;
 import org.opentmf.common.model.IRule;
 

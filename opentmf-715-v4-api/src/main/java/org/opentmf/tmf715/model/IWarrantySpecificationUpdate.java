@@ -7,6 +7,7 @@ import org.opentmf.common.model.IProductSpecificationRef;
 import org.opentmf.common.model.IQuantity;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IResourceSpecificationRef;
+import org.opentmf.common.model.IWarrantySpecificationRelationship;
 import org.opentmf.common.model.IWorkSpecificationUpdateBase;
 
 /**

@@ -1,7 +1,7 @@
 package org.opentmf.tmf668.model;
 
 import java.util.List;
-import org.opentmf.partner.model.IRoleSpecification;
+import org.opentmf.common.model.IRoleSpecification;
 
 /**
  * A partnership specification contains all the information for the setup of a

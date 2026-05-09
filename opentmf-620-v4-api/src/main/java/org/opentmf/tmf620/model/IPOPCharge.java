@@ -1,8 +1,11 @@
 package org.opentmf.tmf620.model;
 
+import java.time.OffsetDateTime;
 import java.util.List;
-import org.opentmf.common.model.IAssociationBase;
+import org.opentmf.common.model.IConstraintRef;
 import org.opentmf.common.model.IQuantity;
+import org.opentmf.common.model.ITimePeriod;
+import org.opentmf.product.model.IBundledProductSpecification;
 
 /**
  * This is representing a product offering price (charge) based on both the
@@ -19,7 +22,23 @@ import org.opentmf.common.model.IQuantity;
  *
  * @author Gökhan Demir
  */
-public interface IPOPCharge extends IAssociationBase {
+public interface IPOPCharge extends IBundledProductSpecification {
+
+  /**
+   * The Constraint resource represents a policy/rule applied to
+   * ProductOfferingPrice.
+   */
+  List<? extends IConstraintRef> getConstraints();
+
+  /**
+   * Description of the productOfferingPrice.
+   */
+  String getDescription();
+
+  /**
+   * the last update time of this ProductOfferingPrice.
+   */
+  OffsetDateTime getLastUpdate();
 
   /**
    * Provides all amounts (tax included, duty free, tax rate), used currency and
@@ -55,4 +74,15 @@ public interface IPOPCharge extends IAssociationBase {
    * An amount in a given unit.
    */
   IQuantity getUnitOfMeasure();
+
+  /**
+   * A period of time, either as a deadline (endDateTime only) a startDateTime
+   * only, or both.
+   */
+  ITimePeriod getValidFor();
+
+  /**
+   * ProductOffering version.
+   */
+  String getVersion();
 }

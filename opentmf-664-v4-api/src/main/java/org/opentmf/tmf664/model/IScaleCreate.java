@@ -2,7 +2,7 @@ package org.opentmf.tmf664.model;
 
 import java.util.List;
 import org.opentmf.common.model.IExtensible;
-import org.opentmf.resource.model.IScheduleRef;
+import org.opentmf.common.model.IScheduleRef;
 
 /**
  * Task Resource used to request scaling of a Resource Function

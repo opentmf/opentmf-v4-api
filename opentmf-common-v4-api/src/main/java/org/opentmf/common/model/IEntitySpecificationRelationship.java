@@ -25,7 +25,7 @@ package org.opentmf.common.model;
  *
  * @author Gökhan Demir
  */
-public interface IEntitySpecificationRelationship extends IServiceSpecRelationship {
+public interface IEntitySpecificationRelationship extends IServiceTestSpecRelationship {
 
   /**
    * reference to an AssociationSpecification object.

@@ -21,7 +21,7 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface IAccount extends INamedEntity {
+public interface IAccount extends IBillPresentationMedia {
 
   /**
    * List of: Balances linked to the account.
@@ -52,11 +52,6 @@ public interface IAccount extends INamedEntity {
    * A base / value business entity used to represent money.
    */
   IMoney getCreditLimit();
-
-  /**
-   * Detailed description of the party account.
-   */
-  String getDescription();
 
   /**
    * Date of last modification of the account.

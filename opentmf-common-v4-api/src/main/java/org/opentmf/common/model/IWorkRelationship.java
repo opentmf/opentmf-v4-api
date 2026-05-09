@@ -18,7 +18,7 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface IWorkRelationship extends ICharacteristicRelationship {
+public interface IWorkRelationship extends IWorkQualificationRelationship {
 
   /**
    * A Unit of Work defined by value or existing defined by reference. The

@@ -1,5 +1,6 @@
 package org.opentmf.tmf730.model;
 
+import org.opentmf.common.model.ISoftwareSupportPackageRef;
 
 /**
  * A base class used to define the invariant characteristics and behavior

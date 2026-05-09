@@ -1,6 +1,8 @@
 package org.opentmf.tmf645.model;
 
 import java.util.List;
+import org.opentmf.common.model.IServiceQualificationItemRelationship;
+import org.opentmf.common.model.IServiceQualificationRelationship;
 import org.opentmf.common.model.ITerminationError;
 
 /**

@@ -1,8 +1,10 @@
 package org.opentmf.tmf654.model;
 
 import java.util.List;
+import org.opentmf.common.model.IBucketRef;
 import org.opentmf.common.model.IChannelRef;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.ILogicalResourceRef;
 import org.opentmf.common.model.IMoney;
 import org.opentmf.common.model.IProductRef;
 import org.opentmf.common.model.IQuantity;

@@ -54,7 +54,7 @@ import java.net.URI;
  *
  * @author Gökhan Demir
  */
-public interface IAttachmentRef extends IAgreementSpecificationRef {
+public interface IAttachmentRef extends ITemplateRef {
 
   /**
    * Link to the attachment media/content.

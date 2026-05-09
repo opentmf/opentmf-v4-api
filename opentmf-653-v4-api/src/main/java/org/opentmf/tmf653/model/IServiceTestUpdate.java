@@ -5,6 +5,7 @@ import java.util.List;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IServiceRef;
+import org.opentmf.common.model.IServiceTestSpecificationRef;
 import org.opentmf.common.model.ITimePeriod;
 
 /**

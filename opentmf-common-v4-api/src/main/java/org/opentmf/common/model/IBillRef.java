@@ -12,7 +12,6 @@ package org.opentmf.common.model;
  * <strong>Referring TMF artifacts:</strong>
  * <ul>
  *   <li>TMF-678: Customer Bill Management API</li>
- *   <li>TMF-common: common</li>
  * </ul>
  * </p>
  *

@@ -9,6 +9,7 @@ import org.opentmf.common.model.IProductOrderRef;
 import org.opentmf.common.model.IProductPrice;
 import org.opentmf.common.model.IRelatedPartyWithContactInfo;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
+import org.opentmf.common.model.IRelatedShippingOrder;
 import org.opentmf.partner.model.IShippingInstruction;
 
 /**

@@ -4,11 +4,12 @@ import java.time.OffsetDateTime;
 import java.util.List;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.ILoyaltyProgramMemberRef;
+import org.opentmf.common.model.ILoyaltyProgramProductRef;
 import org.opentmf.common.model.IMoney;
 import org.opentmf.common.model.IRelatedParty;
+import org.opentmf.common.model.IUsageSpecificationRef;
 import org.opentmf.product.model.IRatedProductUsage;
 import org.opentmf.product.model.IUsageCharacteristic;
-import org.opentmf.product.model.IUsageSpecificationRef;
 
 /**
  * A specialised event to process direct loyalty points earnings.

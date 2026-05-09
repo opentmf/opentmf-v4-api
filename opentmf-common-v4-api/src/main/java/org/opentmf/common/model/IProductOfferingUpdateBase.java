@@ -5,10 +5,12 @@ package org.opentmf.common.model;
  * Synthesized abstract parent for 4 model classes.
  *
  * <p><br/>
- * <strong>Referring TMF artifacts:</strong>
+ * <strong>Direct descendants:</strong>
  * <ul>
- *   <li>TMF-620: Product Catalog Management API</li>
- *   <li>TMF-667: Document Management API</li>
+ *   <li>DocumentSpecificationUpdate (667)</li>
+ *   <li>ProductOfferingPriceUpdate (620)</li>
+ *   <li>ProductOfferingUpdate (620)</li>
+ *   <li>ProductSpecificationUpdate (620)</li>
  * </ul>
  * </p>
  *

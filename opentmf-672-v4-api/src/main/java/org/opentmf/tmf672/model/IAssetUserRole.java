@@ -2,6 +2,7 @@ package org.opentmf.tmf672.model;
 
 import org.opentmf.common.model.IEntityRef;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IUserRoleRef;
 
 /**
  * The AssetUserRole is the detailed information concerning an individual user

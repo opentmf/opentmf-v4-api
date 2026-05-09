@@ -1,6 +1,8 @@
 package org.opentmf.tmf686.model;
 
 import java.util.List;
+import org.opentmf.common.model.IGraphRef;
+import org.opentmf.common.model.IVertexRef;
 
 /**
  * Represents a task used to query topology in the service

@@ -4,11 +4,13 @@ import java.util.List;
 import org.opentmf.common.model.IAppointmentRef;
 import org.opentmf.common.model.IBillingAccountRef;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IOrderItemRelationship;
+import org.opentmf.common.model.IOrderTerm;
+import org.opentmf.common.model.IProductOfferingQualificationRef;
 import org.opentmf.common.model.IProductOfferingRef;
 import org.opentmf.common.model.IProductRefOrValue;
 import org.opentmf.customer.model.IPaymentRef;
 import org.opentmf.customer.model.IProductOfferingQualificationItemRef;
-import org.opentmf.customer.model.IProductOfferingQualificationRef;
 
 /**
  * An identified part of the order. A product order is decomposed into one or
