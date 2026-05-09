@@ -3,7 +3,6 @@
 Getter-only Java interfaces for the **Resource** common group. Membership follows TM Forum’s official Open API portfolio grouping — see [Open APIs](https://www.tmforum.org/open-digital-architecture/open-apis).
 
 These interfaces are shared across multiple TMF modules:
-
 - TMF-634: Resource Catalog Management API, version: 4.1.0
 - TMF-639: Resource Inventory Management API, version: 4.0.0
 - TMF-642: Alarm Management API, version: 4.0.0
@@ -26,6 +25,6 @@ If a direct dependency is required:
 <dependency>
     <groupId>org.opentmf.model</groupId>
     <artifactId>opentmf-resource-v4-api</artifactId>
-    <version>4.1.0.10</version>
+    <version>4.1.0.11</version>
 </dependency>
 ```

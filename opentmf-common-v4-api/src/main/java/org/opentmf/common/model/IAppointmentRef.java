@@ -23,12 +23,7 @@ package org.opentmf.common.model;
  *
  * @author Gökhan Demir
  */
-public interface IAppointmentRef extends IEntity {
-
-  /**
-   * The actual type of the target instance when needed for disambiguation.
-   */
-  String getAtReferredType();
+public interface IAppointmentRef extends IResourceOrderRef {
 
   /**
    * An explanatory text regarding the appointment made with a party.

@@ -6,7 +6,7 @@ import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IEntityRef;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IExternalIdentifier;
-import org.opentmf.general.model.IResourceEntity;
+import org.opentmf.common.model.IResourceEntity;
 
 /**
  * An Incident is a record of an event that has altered the operational state of

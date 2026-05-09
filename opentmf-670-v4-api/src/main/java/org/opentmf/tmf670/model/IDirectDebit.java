@@ -3,6 +3,7 @@ package org.opentmf.tmf670.model;
 import java.time.OffsetDateTime;
 import java.util.List;
 import org.opentmf.common.model.IAttachmentRefOrValue;
+import org.opentmf.common.model.IPaymentMethod;
 
 /**
  * Direct Debit is a fully automated payment instrument which is generally used
@@ -23,7 +24,23 @@ import org.opentmf.common.model.IAttachmentRefOrValue;
  *
  * @author Gökhan Demir
  */
-public interface IDirectDebit extends IBankAccountTransfer {
+public interface IDirectDebit extends IPaymentMethod {
+
+  /**
+   * The Business Identifier Code/Swift code of the financial institution where
+   * the account is located.
+   */
+  String getBIC();
+
+  /**
+   * The bank account number, this could refer to the iban or swift number.
+   */
+  String getAccountNumber();
+
+  /**
+   * The type of account number (e.g.: IBAN, SWIFT, ...).
+   */
+  String getAccountNumberType();
 
   /**
    * List of: An attachment by value or by reference. An attachment complements
@@ -31,6 +48,11 @@ public interface IDirectDebit extends IBankAccountTransfer {
    * picture.
    */
   List<? extends IAttachmentRefOrValue> getAttachments();
+
+  /**
+   * The display name of the bank.
+   */
+  String getBank();
 
   /**
    * The date on which the (e)Mandate has been cancelled by the Debtor or the
@@ -74,6 +96,11 @@ public interface IDirectDebit extends IBankAccountTransfer {
    * The type of mandate e.g., single-use(single)/multi-use(recurring).
    */
   String getMandateType();
+
+  /**
+   * The owner of the bank account. This is also the account name.
+   */
+  String getOwner();
 
   /**
    * A reference that the party can later use to identify the direct debit.

@@ -5,11 +5,13 @@ package org.opentmf.common.model;
  * Synthesized abstract parent for 5 model classes.
  *
  * <p><br/>
- * <strong>Referring TMF artifacts:</strong>
+ * <strong>Direct descendants:</strong>
  * <ul>
- *   <li>TMF-620: Product Catalog Management API</li>
- *   <li>TMF-701: Process Flow Management API</li>
- *   <li>TMF-921: Intent Management API</li>
+ *   <li>CatalogUpdate (620)</li>
+ *   <li>CategoryUpdate (620)</li>
+ *   <li>IntentUpdate (921)</li>
+ *   <li>ProcessFlowSpecificationUpdate (701)</li>
+ *   <li>TaskFlowSpecificationUpdate (701)</li>
  * </ul>
  * </p>
  *

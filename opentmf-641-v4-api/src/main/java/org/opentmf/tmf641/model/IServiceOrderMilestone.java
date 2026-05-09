@@ -1,6 +1,7 @@
 package org.opentmf.tmf641.model;
 
 import java.util.List;
+import org.opentmf.common.model.IServiceOrderItemRef;
 
 /**
  * ServiceOrderMilestone represents an action or event marking a significant

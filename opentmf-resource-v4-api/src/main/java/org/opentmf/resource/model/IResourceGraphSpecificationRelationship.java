@@ -1,6 +1,7 @@
 package org.opentmf.resource.model;
 
 import org.opentmf.common.model.ICharacteristicRelationship;
+import org.opentmf.common.model.IResourceGraphSpecificationRef;
 
 /**
  * Describes link between resource graph specifications.

@@ -3,6 +3,8 @@ package org.opentmf.tmf728.model;
 import java.time.OffsetDateTime;
 import java.util.List;
 import org.opentmf.common.model.IAppliedCustomerBillingRate;
+import org.opentmf.common.model.ICustomerBillRef;
+import org.opentmf.common.model.IDunningRuleRef;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IProductOrderRef;
 

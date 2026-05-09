@@ -4,6 +4,7 @@ import java.util.List;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IServiceRef;
+import org.opentmf.common.model.IServiceUsageSpecificationRef;
 
 /**
  * An occurrence of usage on a Service derived from various Resource usages,

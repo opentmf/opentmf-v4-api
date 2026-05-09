@@ -7,9 +7,9 @@ import org.opentmf.common.model.IBillingAccountRef;
 import org.opentmf.common.model.IContactMedium;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.INote;
+import org.opentmf.common.model.IProductOfferingQualificationRef;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.ITimePeriod;
-import org.opentmf.customer.model.IProductOfferingQualificationRef;
 
 /**
  * Quote can be used to negotiate service and product acquisition or

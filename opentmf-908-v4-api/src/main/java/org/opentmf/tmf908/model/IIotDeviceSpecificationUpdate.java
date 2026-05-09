@@ -5,6 +5,7 @@ import org.opentmf.common.model.IAttachmentRef;
 import org.opentmf.common.model.IEntityCatalogUpdateBase;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IResourceSpecificationRef;
+import org.opentmf.common.model.ITargetServiceSchema;
 
 /**
  * #TODO

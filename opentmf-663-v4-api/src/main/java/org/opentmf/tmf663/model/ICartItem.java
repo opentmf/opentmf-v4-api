@@ -1,6 +1,8 @@
 package org.opentmf.tmf663.model;
 
 import java.util.List;
+import org.opentmf.common.model.ICartItemRelationship;
+import org.opentmf.common.model.ICartTerm;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.INote;
 import org.opentmf.common.model.IProductOfferingRef;

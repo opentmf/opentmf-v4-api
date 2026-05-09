@@ -2,6 +2,7 @@ package org.opentmf.tmf915.model;
 
 import org.opentmf.common.model.IAttachmentRef;
 import org.opentmf.common.model.IEntity;
+import org.opentmf.common.model.IRuleRef;
 
 /**
  *

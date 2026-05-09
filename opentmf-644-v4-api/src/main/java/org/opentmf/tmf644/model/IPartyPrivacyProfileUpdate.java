@@ -2,6 +2,8 @@ package org.opentmf.tmf644.model;
 
 import java.util.List;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IPartyPrivacyAgreementRef;
+import org.opentmf.common.model.IPartyPrivacyProfileSpecificationRef;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.ITimePeriod;
 

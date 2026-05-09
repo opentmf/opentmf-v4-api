@@ -1,6 +1,7 @@
 package org.opentmf.tmf667.model;
 
 import java.net.URI;
+import org.opentmf.common.model.IDocumentSpecificationCreate;
 
 /**
  * A DocumentSpecification provides the characteristics and constraints that

@@ -1,6 +1,6 @@
 package org.opentmf.tmf696.model;
 
-import org.opentmf.customer.model.IShoppingCartRef;
+import org.opentmf.common.model.IShoppingCartRef;
 
 /**
  * This is a task resource allowing assessment of the risks associated with a

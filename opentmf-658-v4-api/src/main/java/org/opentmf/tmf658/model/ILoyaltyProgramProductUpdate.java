@@ -5,12 +5,14 @@ import java.util.List;
 import org.opentmf.common.model.IAgreementItemRef;
 import org.opentmf.common.model.IBillingAccountRef;
 import org.opentmf.common.model.ICharacteristic;
+import org.opentmf.common.model.ILoyaltyAccountRef;
+import org.opentmf.common.model.ILoyaltyProgramProductSpecRef;
+import org.opentmf.common.model.IProductCreateBase;
 import org.opentmf.common.model.IProductRefOrValue;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
 import org.opentmf.common.model.IRelatedProductOrderItem;
 import org.opentmf.common.model.ITimePeriod;
-import org.opentmf.product.model.IProductCreateBase;
 
 /**
  * An instance of a loyalty program specification, linked to a specified loyalty

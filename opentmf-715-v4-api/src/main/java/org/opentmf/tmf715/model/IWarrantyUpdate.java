@@ -4,12 +4,15 @@ import java.util.List;
 import org.opentmf.common.model.IAgreementRef;
 import org.opentmf.common.model.IAttachmentRefOrValue;
 import org.opentmf.common.model.ICharacteristic;
+import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.INote;
 import org.opentmf.common.model.IProductRefOrValue;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
 import org.opentmf.common.model.IResourceRefOrValue;
 import org.opentmf.common.model.ITimePeriod;
-import org.opentmf.common.model.IWarrantyBase;
+import org.opentmf.common.model.IWarrantyRelationship;
+import org.opentmf.common.model.IWarrantySpecificationRef;
 import org.opentmf.general.model.IEntityRelationship;
 import org.opentmf.general.model.IEntitySpecificationRef;
 
@@ -29,7 +32,7 @@ import org.opentmf.general.model.IEntitySpecificationRef;
  *
  * @author Gökhan Demir
  */
-public interface IWarrantyUpdate extends IWarrantyBase {
+public interface IWarrantyUpdate extends IExtensible {
 
   /**
    * List of: A product to be created defined by value or existing defined by
@@ -65,6 +68,11 @@ public interface IWarrantyUpdate extends IWarrantyBase {
   String getContext();
 
   /**
+   * free-text description of the entity.
+   */
+  String getDescription();
+
+  /**
    * A date time( DateTime). The date till the entity is effective.
    */
   String getEndDate();
@@ -80,10 +88,26 @@ public interface IWarrantyUpdate extends IWarrantyBase {
   IEntitySpecificationRef getEntitySpecification();
 
   /**
+   * isBundle determines whether an entity represents a single entity (false), or
+   * a bundle of entities(true).
+   */
+  Boolean getIsBundle();
+
+  /**
    * isExternal determines whether an entity represents an external entity in the
    * inventory.
    */
   Boolean getIsExternal();
+
+  /**
+   * A string used to give a name to the entity.
+   */
+  String getName();
+
+  /**
+   * List of: Extra information about a given entity.
+   */
+  List<? extends INote> getNotes();
 
   /**
    * List of: Related Entity reference. A related place defines a place described
@@ -103,6 +127,13 @@ public interface IWarrantyUpdate extends IWarrantyBase {
    * A date time( DateTime). The date from which the entity is effective.
    */
   String getStartDate();
+
+  /**
+   * Valid values for the lifecycle state of the service
+   * <br/><p>Recommended values: feasibilityChecked, designed, reserved, inactive,
+   * active, terminated.
+   */
+  String getState();
 
   /**
    * The life cycle state of the entity.

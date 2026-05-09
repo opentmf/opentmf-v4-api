@@ -26,7 +26,7 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface IPaymentMethod extends INamedEntity {
+public interface IPaymentMethod extends IEntity {
 
   /**
    * Reference to the accounts that are linked to the payment method. May be a
@@ -51,6 +51,11 @@ public interface IPaymentMethod extends INamedEntity {
    * for the payment methods of a specific customer or account.
    */
   Boolean getIsPreferred();
+
+  /**
+   * Friendly name assigned to the payment method.
+   */
+  String getName();
 
   /**
    * Related Party reference. A related party defines party or party role linked

@@ -1,6 +1,7 @@
 package org.opentmf.tmf716.model;
 
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IResourceReservationRef;
 
 /**
  * Skipped properties: id,href,state,effectiveCancellationDate.

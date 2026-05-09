@@ -7,9 +7,9 @@ import org.opentmf.common.model.IGeographicLocationRef;
 import org.opentmf.common.model.INamedEntity;
 import org.opentmf.common.model.IProductOrderRef;
 import org.opentmf.common.model.IRelatedParty;
+import org.opentmf.common.model.IShoppingCartRef;
 import org.opentmf.common.model.ITimePeriod;
 import org.opentmf.customer.model.IRecommendationItem;
-import org.opentmf.customer.model.IShoppingCartRef;
 
 /**
  * Recommendation API is used to recommend offering quickly based on the history

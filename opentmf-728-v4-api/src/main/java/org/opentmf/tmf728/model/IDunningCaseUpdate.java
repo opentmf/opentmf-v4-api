@@ -5,6 +5,7 @@ import java.util.List;
 import org.opentmf.common.model.IAccountBalance;
 import org.opentmf.common.model.IBillingAccountRef;
 import org.opentmf.common.model.ICharacteristic;
+import org.opentmf.common.model.IDunningScenarioRef;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.ITimePeriod;

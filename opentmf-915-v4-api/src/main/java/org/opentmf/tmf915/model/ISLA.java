@@ -5,6 +5,7 @@ import java.util.List;
 import org.opentmf.common.model.INamedEntity;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IRule;
+import org.opentmf.common.model.ITemplateRef;
 import org.opentmf.common.model.ITimePeriod;
 
 /**

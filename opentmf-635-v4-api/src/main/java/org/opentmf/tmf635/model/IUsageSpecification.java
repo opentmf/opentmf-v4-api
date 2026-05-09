@@ -1,6 +1,7 @@
 package org.opentmf.tmf635.model;
 
 import java.net.URI;
+import org.opentmf.common.model.IUsageSpecificationUpdate;
 
 /**
  * A detailed description of a usage event that are of interest to the business

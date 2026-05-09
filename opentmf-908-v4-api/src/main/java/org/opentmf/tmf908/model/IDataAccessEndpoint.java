@@ -6,6 +6,7 @@ import org.opentmf.common.model.INamedEntity;
 import org.opentmf.common.model.INote;
 import org.opentmf.common.model.IPlace;
 import org.opentmf.common.model.IRelatedParty;
+import org.opentmf.common.model.IResourceCharacteristic;
 import org.opentmf.common.model.IResourceRelationship;
 
 /**

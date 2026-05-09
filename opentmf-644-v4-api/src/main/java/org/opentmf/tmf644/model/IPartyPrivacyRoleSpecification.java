@@ -2,7 +2,7 @@ package org.opentmf.tmf644.model;
 
 import java.util.List;
 import org.opentmf.common.model.IAgreementSpecificationRef;
-import org.opentmf.partner.model.IRoleSpecification;
+import org.opentmf.common.model.IRoleSpecification;
 
 /**
  * A PartyPrivacyRoleSpecification represents a specification of a role defined

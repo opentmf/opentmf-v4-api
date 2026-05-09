@@ -1,6 +1,7 @@
 package org.opentmf.tmf915.model;
 
 import java.util.List;
+import org.opentmf.common.model.IAlgorithmParams;
 import org.opentmf.common.model.INamedEntity;
 import org.opentmf.general.model.IConsequence;
 import org.opentmf.general.model.IPerformanceAlarmSpecification;

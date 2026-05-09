@@ -1,5 +1,7 @@
 package org.opentmf.tmf716.model;
 
+import org.opentmf.common.model.IResourceReservationRef;
+
 /**
  *
  * <p><br/>

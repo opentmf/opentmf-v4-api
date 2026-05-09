@@ -11,10 +11,12 @@ import org.opentmf.common.model.IRelatedParty;
  * Synthesized abstract parent for 4 model classes.
  *
  * <p><br/>
- * <strong>Referring TMF artifacts:</strong>
+ * <strong>Direct descendants:</strong>
  * <ul>
- *   <li>TMF-666: Account Management API</li>
- *   <li>TMF-partner: partner</li>
+ *   <li>BillingAccountUpdate (666)</li>
+ *   <li>FinancialAccountUpdate (666)</li>
+ *   <li>PartyAccountUpdate (666)</li>
+ *   <li>SettlementAccountUpdate (666)</li>
  * </ul>
  * </p>
  *

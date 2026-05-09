@@ -30,12 +30,7 @@ import java.net.URI;
  *
  * @author Gökhan Demir
  */
-public interface IRelatedProductOrderItem extends IEntity {
-
-  /**
-   * The actual type of the target instance when needed for disambiguation.
-   */
-  String getAtReferredType();
+public interface IRelatedProductOrderItem extends IShoppingCartRef {
 
   /**
    * Action of the order item for this product.

@@ -1,6 +1,7 @@
 package org.opentmf.tmf717.model;
 
 import java.util.List;
+import org.opentmf.common.model.ICustomer360ProductValueVO;
 import org.opentmf.customer.model.ICustomer;
 
 /**

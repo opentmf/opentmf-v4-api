@@ -3,7 +3,6 @@
 Getter-only Java interfaces for the **Partner** common group. Membership follows TM Forum’s official Open API portfolio grouping — see [Open APIs](https://www.tmforum.org/open-digital-architecture/open-apis).
 
 These interfaces are shared across multiple TMF modules:
-
 - TMF-632: Party Management API, version: 4.0.0
 - TMF-644: Privacy Management API, version: 4.0.0
 - TMF-651: Agreement Management API, version: 4.0.0
@@ -27,6 +26,6 @@ If a direct dependency is required:
 <dependency>
     <groupId>org.opentmf.model</groupId>
     <artifactId>opentmf-partner-v4-api</artifactId>
-    <version>4.0.0.10</version>
+    <version>4.0.0.11</version>
 </dependency>
 ```

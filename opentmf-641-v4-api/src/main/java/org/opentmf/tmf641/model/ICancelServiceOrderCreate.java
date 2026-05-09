@@ -2,6 +2,7 @@ package org.opentmf.tmf641.model;
 
 import java.time.OffsetDateTime;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IServiceOrderRef;
 
 /**
  * Request for cancellation an existing Service order

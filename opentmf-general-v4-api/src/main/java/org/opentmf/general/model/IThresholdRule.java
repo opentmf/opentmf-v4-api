@@ -1,8 +1,6 @@
 package org.opentmf.general.model;
 
-import java.util.List;
-import org.opentmf.common.model.INamedEntity;
-import org.opentmf.common.model.IPerformanceMeasurement;
+import java.net.URI;
 
 /**
  * ThresholdRule A base entity for concrete definition of thresholds.This
@@ -18,48 +16,15 @@ import org.opentmf.common.model.IPerformanceMeasurement;
  *
  * @author Gökhan Demir
  */
-public interface IThresholdRule extends INamedEntity {
+public interface IThresholdRule extends IThresholdRuleUpdate {
 
   /**
-   * A threshold crossing or a threshold ceased to be crossing results in a
-   * Performance consequence.
+   * Hyperlink reference.
    */
-  List<? extends IConsequence> getConsequences();
+  URI getHref();
 
   /**
-   * A counter/KPI to be used by the threshold rule.
+   * unique identifier.
    */
-  IPerformanceMeasurement getMeasurement();
-
-  /**
-   * A specific description of the threshold crossing (intended to be populated e
-   * under the alarm under CrossedThreshold structure).
-   */
-  String getPerfAlarmSpecThresholdCrossingDescription();
-
-  /**
-   * The specification of how to populate the alarm fields when generating a
-   * threshold crossing alarm.
-   */
-  IPerformanceAlarmSpecification getPerformanceAlarmSpecification();
-
-  /**
-   * A concrete threshold may have two possible values: \"Raise\" - a threshold
-   * was crossed or \"Clear\" - a threshold ceased crossing.
-   */
-  String getThresholdRuleCondition();
-
-  /**
-   * A word, term, or phrase by which a Performance threshold rule is known and
-   * distinguished from other threshold rules.
-   */
-  String getThresholdRuleName();
-
-  /**
-   * A threshold can be generated in different severity levels. A crossing for
-   * each level may require a different condition and possibly trigger a different
-   * consequence. The supported severity levels are equivalent to the possible
-   * severity level of alarms.
-   */
-  String getThresholdRuleSeverity();
+  String getId();
 }

@@ -30,7 +30,7 @@ import java.net.URI;
  *
  * @author Gökhan Demir
  */
-public interface ICharacteristicSpecificationBase extends IExtensible {
+public interface ICharacteristicSpecificationBase extends IRuleUpdate {
 
   /**
    * This (optional) field provides a link to the schema describing the value
@@ -81,12 +81,6 @@ public interface ICharacteristicSpecificationBase extends IExtensible {
    * the value for the minCardinality.
    */
   Integer getMinCardinality();
-
-  /**
-   * A word, term, or phrase by which this characteristic specification is known
-   * and distinguished from other characteristic specifications.
-   */
-  String getName();
 
   /**
    * A rule or principle represented in regular expression used to derive the

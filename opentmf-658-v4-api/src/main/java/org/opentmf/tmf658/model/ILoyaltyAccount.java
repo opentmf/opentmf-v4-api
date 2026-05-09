@@ -1,6 +1,7 @@
 package org.opentmf.tmf658.model;
 
 import org.opentmf.common.model.IAccount;
+import org.opentmf.common.model.ILoyaltyProgramProductRef;
 
 /**
  * A loyalty account, containing loyalty balances.

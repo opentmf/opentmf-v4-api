@@ -3,6 +3,7 @@ package org.opentmf.tmf668.model;
 import java.util.List;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IPartner;
+import org.opentmf.common.model.IPartnershipSpecificationRef;
 
 /**
  * A partnership represents a formalized collaboration between various parties,

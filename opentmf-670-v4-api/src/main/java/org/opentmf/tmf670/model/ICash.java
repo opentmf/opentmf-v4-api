@@ -1,6 +1,6 @@
 package org.opentmf.tmf670.model;
 
-import java.net.URI;
+import org.opentmf.common.model.IPaymentMethod;
 
 /**
  * A cash method of payment. It has no additional data, but it could be extended
@@ -20,15 +20,5 @@ import java.net.URI;
  *
  * @author Gökhan Demir
  */
-public interface ICash extends IPaymentMethodCreate {
-
-  /**
-   * Hyperlink reference.
-   */
-  URI getHref();
-
-  /**
-   * unique identifier.
-   */
-  String getId();
+public interface ICash extends IPaymentMethod {
 }

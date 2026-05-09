@@ -1,9 +1,9 @@
 package org.opentmf.tmf717.model;
 
 import java.time.OffsetDateTime;
+import org.opentmf.common.model.ICalendarEventRef;
 import org.opentmf.common.model.IEntity;
 import org.opentmf.common.model.ITimePeriod;
-import org.opentmf.customer.model.ICalendarEventRef;
 
 /**
  * An Appointment is an arrangement to do something or meet someone at a

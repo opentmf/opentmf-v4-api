@@ -8,6 +8,7 @@ import org.opentmf.common.model.IDocumentUpdateBase;
 import org.opentmf.common.model.IEntitySpecificationRelationship;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IServiceSpecificationRef;
+import org.opentmf.common.model.IServiceTestSpecRelationship;
 import org.opentmf.common.model.ITargetEntitySchema;
 
 /**

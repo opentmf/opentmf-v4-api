@@ -2,6 +2,8 @@ package org.opentmf.tmf714.model;
 
 import java.util.List;
 import org.opentmf.common.model.ITerminationError;
+import org.opentmf.common.model.IWorkQualificationItemRelationship;
+import org.opentmf.common.model.IWorkQualificationRelationship;
 
 /**
  * A WorkQualificationItem relates to a specific unit of work being checked in a

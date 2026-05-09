@@ -1,6 +1,7 @@
 package org.opentmf.tmf641.model;
 
 import java.util.List;
+import org.opentmf.common.model.IServiceOrderItemRef;
 
 /**
  * A ServiceOrderJeopardyAlert represents a predicted exception during a service

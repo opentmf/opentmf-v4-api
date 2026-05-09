@@ -5,6 +5,7 @@ import java.util.List;
 import org.opentmf.common.model.IAttachmentRefOrValue;
 import org.opentmf.common.model.ICategoryRef;
 import org.opentmf.common.model.ICharacteristic;
+import org.opentmf.common.model.IDocumentRef;
 import org.opentmf.common.model.IDocumentUpdateBase;
 import org.opentmf.common.model.IExternalIdentifier;
 import org.opentmf.common.model.IRelatedEntity;

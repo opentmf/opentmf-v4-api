@@ -6,6 +6,7 @@ import org.opentmf.common.model.IChannelRef;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IRelatedEntity;
 import org.opentmf.common.model.IRelatedParty;
+import org.opentmf.common.model.ITaskFlowSpecificationRef;
 
 /**
  * Skipped properties:

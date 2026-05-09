@@ -10,7 +10,6 @@ package org.opentmf.common.model;
  * <strong>Referring TMF artifacts:</strong>
  * <ul>
  *   <li>TMF-649: Performance Thresholding Management API</li>
- *   <li>TMF-common: common</li>
  * </ul>
  * </p>
  *
