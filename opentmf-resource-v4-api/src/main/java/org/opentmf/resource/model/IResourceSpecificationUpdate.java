@@ -5,6 +5,7 @@ import org.opentmf.common.model.IAttachmentRefOrValue;
 import org.opentmf.common.model.IFeatureSpecification;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IResourceSpecificationCreateBase;
+import org.opentmf.common.model.ITargetResourceSchema;
 
 /**
  * Resources are physical or non-physical components (or some combination of

@@ -5,6 +5,7 @@ import org.opentmf.common.model.INamedEntity;
 import org.opentmf.common.model.IPartyAccountRef;
 import org.opentmf.common.model.IQuantity;
 import org.opentmf.common.model.IRelatedParty;
+import org.opentmf.common.model.IReserveBalanceRef;
 import org.opentmf.common.model.ITimePeriod;
 
 /**

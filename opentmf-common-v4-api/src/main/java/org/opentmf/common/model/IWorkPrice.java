@@ -1,6 +1,5 @@
 package org.opentmf.common.model;
 
-import java.util.List;
 
 /**
  * An amount, usually of money, that represents the actual price paid by the
@@ -16,7 +15,7 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface IWorkPrice extends ICartPriceBase {
+public interface IWorkPrice extends IPriceBase {
 
   /**
    * BillingAccount reference. A BillingAccount is a detailed description of a
@@ -29,12 +28,6 @@ public interface IWorkPrice extends ICartPriceBase {
    * percentage to apply for Price Alteration.
    */
   IPrice getPrice();
-
-  /**
-   * List of: Is an amount, usually of money, that modifies the price charged for
-   * an order item.
-   */
-  List<? extends IPriceAlteration> getPriceAlterations();
 
   /**
    * Could be minutes, GB...

@@ -10,27 +10,25 @@
 
   <artifactId>opentmf-partner-v4-api</artifactId>
   <name>opentmf-partner-v4-api</name>
-  <version>4.0.0.11-SNAPSHOT</version>
   <description>
-        
-    - TMF-632: Party Management API, version: 4.0.0
-    - TMF-644: Privacy Management API, version: 4.0.0
-    - TMF-651: Agreement Management API, version: 4.0.0
-    - TMF-666: Account Management API, version: 4.0.0
-    - TMF-668: Partnership Type, version: 4.0.0
-    - TMF-669: Party Role Management API, version: 4.0.0
-    - TMF-672: User Role Permission Management API, version: 4.0.0
-    - TMF-683: Party Interaction Management API, version: 4.0.0
-    - TMF-700: Shipping Order Management API, version: 4.0.0
-    - TMF-711: Shipment Management Management API, version: 4.0.0
-    - TMF-713: Work Management, version: 4.0.0
+    - TMF-632: Party Management API, version: 4.1.1
+    - TMF-644: Privacy Management API, version: 4.1.1
+    - TMF-651: Agreement Management API, version: 4.1.1
+    - TMF-666: Account Management API, version: 4.1.1
+    - TMF-668: Partnership Type, version: 4.1.1
+    - TMF-669: Party Role Management API, version: 4.1.1
+    - TMF-672: User Role Permission Management API, version: 4.1.1
+    - TMF-683: Party Interaction Management API, version: 4.1.1
+    - TMF-700: Shipping Order Management API, version: 4.1.1
+    - TMF-711: Shipment Management Management API, version: 4.1.1
+    - TMF-713: Work Management, version: 4.1.1
   </description>
 
   <dependencies>
     <dependency>
       <groupId>org.opentmf.model</groupId>
       <artifactId>opentmf-common-v4-api</artifactId>
-      <version>4.2.0.11-SNAPSHOT</version>
+      <version>4.1.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 

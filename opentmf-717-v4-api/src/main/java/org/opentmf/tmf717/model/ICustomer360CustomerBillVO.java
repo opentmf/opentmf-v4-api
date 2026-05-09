@@ -1,6 +1,7 @@
 package org.opentmf.tmf717.model;
 
 import java.time.OffsetDateTime;
+import org.opentmf.common.model.IBillCycleRef;
 import org.opentmf.common.model.IEntity;
 import org.opentmf.common.model.IMoney;
 import org.opentmf.common.model.IPaymentMethodRef;

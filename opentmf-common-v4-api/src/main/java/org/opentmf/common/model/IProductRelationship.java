@@ -32,7 +32,7 @@ package org.opentmf.common.model;
  *
  * @author Gökhan Demir
  */
-public interface IProductRelationship extends IInteractionRelationship {
+public interface IProductRelationship extends IWarrantyRelationship {
 
   /**
    * A product to be created defined by value or existing defined by reference.

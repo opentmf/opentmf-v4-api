@@ -15,23 +15,15 @@ import java.net.URI;
  *
  * @author Gökhan Demir
  */
-public interface IBaseEvent extends IAddressableEventBase {
+public interface IBaseEvent extends IIotManagementEvent {
 
   /**
-   * When subclassing, this defines the super-class.
+   * Hyperlink reference.
    */
-  String getAtBaseType();
+  URI getHref();
 
   /**
-   * A URI to a JSON-Schema file that defines additional attributes and
-   * relationships.
+   * unique identifier.
    */
-  URI getAtSchemaLocation();
-
-  /**
-   * When subclassing, this defines the subclass Extensible name.
-   */
-  String getAtType();
-
-  Object getEvent();
+  String getId();
 }

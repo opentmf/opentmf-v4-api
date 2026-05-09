@@ -1,6 +1,7 @@
 package org.opentmf.tmf641.model;
 
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IServiceOrderItemRef;
 
 /**
  * Linked service order item to the one containing this attribute.

@@ -4,6 +4,7 @@ import java.util.List;
 import org.opentmf.common.model.IChannelRef;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IProcessFlowSpecificationRef;
 import org.opentmf.common.model.IRelatedEntity;
 import org.opentmf.common.model.IRelatedParty;
 

@@ -6,6 +6,7 @@ import org.opentmf.common.model.IAgreementRef;
 import org.opentmf.common.model.IAgreementSpecificationRef;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IPartyPrivacyProfileRef;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.ITimePeriod;
 import org.opentmf.partner.model.IAgreementAuthorization;

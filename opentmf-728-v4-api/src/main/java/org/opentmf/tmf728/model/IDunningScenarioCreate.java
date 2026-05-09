@@ -1,6 +1,7 @@
 package org.opentmf.tmf728.model;
 
 import java.util.List;
+import org.opentmf.common.model.IDunningRuleRef;
 import org.opentmf.common.model.IExtensible;
 
 /**

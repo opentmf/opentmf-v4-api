@@ -1,5 +1,6 @@
 package org.opentmf.tmf658.model;
 
+import org.opentmf.common.model.IPartnershipRef;
 import org.opentmf.common.model.IProductOfferingRef;
 
 /**

@@ -1,8 +1,8 @@
 package org.opentmf.tmf644.model;
 
 import java.util.List;
+import org.opentmf.common.model.IRoleSpecification;
 import org.opentmf.common.model.ITimePeriod;
-import org.opentmf.partner.model.IRoleSpecification;
 
 /**
  * A characteristic of the party privacy profile, whose value(s) would be

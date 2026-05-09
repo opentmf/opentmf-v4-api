@@ -13,6 +13,7 @@ import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
 import org.opentmf.common.model.ISLARef;
 import org.opentmf.common.model.IServiceProblemRef;
+import org.opentmf.common.model.ITroubleTicketRef;
 import org.opentmf.general.model.IEntitySpecificationRef;
 
 /**

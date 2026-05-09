@@ -5,15 +5,16 @@ import java.util.List;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IEntityRef;
 import org.opentmf.common.model.IFeature;
+import org.opentmf.common.model.INote;
 import org.opentmf.common.model.IRelatedEntityRefOrValue;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
 import org.opentmf.common.model.IRelatedServiceOrderItem;
 import org.opentmf.common.model.IResourceRef;
+import org.opentmf.common.model.IRuleUpdate;
 import org.opentmf.common.model.IServiceRefOrValue;
 import org.opentmf.common.model.IServiceRelationship;
 import org.opentmf.common.model.IServiceSpecificationRef;
-import org.opentmf.common.model.IWarrantyBase;
 
 /**
  * AiModel is a base class for defining the AiModel hierarchy
@@ -28,7 +29,7 @@ import org.opentmf.common.model.IWarrantyBase;
  *
  * @author Gökhan Demir
  */
-public interface IAiModelUpdate extends IWarrantyBase {
+public interface IAiModelUpdate extends IRuleUpdate {
 
   /**
    * AiModelSpecification is a class that offers characteristics to describe a
@@ -43,6 +44,11 @@ public interface IAiModelUpdate extends IWarrantyBase {
    * Is it a customer facing or resource facing service.
    */
   String getCategory();
+
+  /**
+   * Free-text description of the service.
+   */
+  String getDescription();
 
   /**
    * Date when the service ends.
@@ -62,6 +68,12 @@ public interface IAiModelUpdate extends IWarrantyBase {
   Boolean getHasStarted();
 
   /**
+   * If true, the service is a ServiceBundle which regroup a service hierarchy. If
+   * false, the service is a 'atomic' service (hierarchy leaf).
+   */
+  Boolean getIsBundle();
+
+  /**
    * If FALSE and hasStarted is FALSE, this particular Service has NOT been
    * enabled for use - if FALSE and hasStarted is TRUE then the service has
    * failed.
@@ -72,6 +84,11 @@ public interface IAiModelUpdate extends IWarrantyBase {
    * If TRUE, this Service can be changed without affecting any other services.
    */
   Boolean getIsStateful();
+
+  /**
+   * A list of notes made on this service.
+   */
+  List<? extends INote> getNotes();
 
   /**
    * A list of places (Place [*]). Used to define a place useful for the service
@@ -135,6 +152,13 @@ public interface IAiModelUpdate extends IWarrantyBase {
    * Service; 4: Manually by a Customer of the Provider; 5: Any of the above.
    */
   String getStartMode();
+
+  /**
+   * Valid values for the lifecycle state of the service
+   * <br/><p>Recommended values: feasibilityChecked, designed, reserved, inactive,
+   * active, terminated.
+   */
+  String getState();
 
   /**
    * A list of supporting resources (SupportingResource [*]).Note: only Service of

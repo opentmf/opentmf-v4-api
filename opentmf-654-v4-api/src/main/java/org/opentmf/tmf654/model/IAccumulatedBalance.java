@@ -1,6 +1,8 @@
 package org.opentmf.tmf654.model;
 
 import java.util.List;
+import org.opentmf.common.model.IBucketRef;
+import org.opentmf.common.model.ILogicalResourceRef;
 import org.opentmf.common.model.INamedEntity;
 import org.opentmf.common.model.IPartyAccountRef;
 import org.opentmf.common.model.IProductRef;

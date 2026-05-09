@@ -11,10 +11,10 @@ import org.opentmf.common.model.IPrice;
 import org.opentmf.common.model.IQuantity;
 import org.opentmf.common.model.IRelatedPartyWithContactInfo;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
-import org.opentmf.partner.model.IRelatedShipment;
+import org.opentmf.common.model.IRelatedShipment;
+import org.opentmf.common.model.IShipmentTrackingRef;
 import org.opentmf.partner.model.IShipmentItem;
 import org.opentmf.partner.model.IShipmentSpecificationRefOrValue;
-import org.opentmf.partner.model.IShipmentTrackingRef;
 import org.opentmf.partner.model.IShippingInstruction;
 
 /**

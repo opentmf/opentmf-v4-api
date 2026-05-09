@@ -3,6 +3,7 @@ package org.opentmf.tmf620.model;
 import java.math.BigDecimal;
 import java.net.URI;
 import java.util.List;
+import org.opentmf.common.model.IBundledProductOfferingPriceRelationship;
 import org.opentmf.common.model.IConstraintRef;
 import org.opentmf.common.model.IMoney;
 import org.opentmf.common.model.IPlaceRef;

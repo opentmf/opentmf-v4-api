@@ -1,6 +1,7 @@
 package org.opentmf.general.model;
 
 import java.util.List;
+import org.opentmf.common.model.IConcreteResource;
 import org.opentmf.common.model.IEntity;
 
 /**

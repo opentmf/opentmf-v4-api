@@ -1,6 +1,6 @@
 package org.opentmf.common.model;
 
-import java.util.List;
+import java.net.URI;
 
 /**
  * ServiceSpecification is a class that offers characteristics to describe a
@@ -19,30 +19,15 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface IServiceSpecification extends IEntitySpecification {
+public interface IServiceSpecification extends IServiceSpecificationCreate {
 
   /**
-   * A list of Features for this specification.
+   * Hyperlink reference.
    */
-  List<? extends IFeatureSpecification> getFeatureSpecifications();
+  URI getHref();
 
   /**
-   * A list of resource specification references (ResourceSpecificationRef [*]).
-   * The ResourceSpecification is required for a service specification with type
-   * ResourceFacingServiceSpecification (RFSS).
+   * unique identifier.
    */
-  List<? extends IResourceSpecificationRef> getResourceSpecifications();
-
-  /**
-   * A list of service level specifications related to this service specification,
-   * and which will need to be satisfiable for corresponding service instances;
-   * e.g. Gold, Platinum.
-   */
-  List<? extends IServiceLevelSpecificationRef> getServiceLevelSpecifications();
-
-  /**
-   * A list of service specifications related to this specification, e.g.
-   * migration, substitution, dependency or exclusivity relationship.
-   */
-  List<? extends IServiceSpecRelationship> getServiceSpecRelationships();
+  String getId();
 }

@@ -4,7 +4,7 @@ import java.util.List;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IRelatedPlace;
-import org.opentmf.customer.model.IShoppingCartRef;
+import org.opentmf.common.model.IShoppingCartRef;
 
 /**
  * This is a task resource allowing assessment of the risks associated with a

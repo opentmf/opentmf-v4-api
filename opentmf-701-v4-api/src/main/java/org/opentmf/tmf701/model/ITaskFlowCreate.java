@@ -7,6 +7,7 @@ import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.IRelatedEntity;
 import org.opentmf.common.model.IRelatedParty;
+import org.opentmf.common.model.ITaskFlowSpecificationRef;
 
 /**
  * Skipped properties: id,href,state,priority,isMandatory,completionMethod,url.

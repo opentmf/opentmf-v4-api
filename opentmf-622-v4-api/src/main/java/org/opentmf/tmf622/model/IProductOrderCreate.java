@@ -6,10 +6,11 @@ import org.opentmf.common.model.IAgreementRef;
 import org.opentmf.common.model.IBillingAccountRef;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.INote;
+import org.opentmf.common.model.IProductOfferingQualificationRef;
+import org.opentmf.common.model.IQuoteRef;
 import org.opentmf.common.model.IRelatedChannel;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.customer.model.IPaymentRef;
-import org.opentmf.customer.model.IProductOfferingQualificationRef;
 
 /**
  * A Product Order is a type of order which can be used to place an order

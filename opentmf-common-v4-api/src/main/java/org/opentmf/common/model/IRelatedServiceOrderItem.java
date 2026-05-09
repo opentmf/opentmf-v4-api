@@ -23,12 +23,17 @@ import java.net.URI;
  *
  * @author Gökhan Demir
  */
-public interface IRelatedServiceOrderItem extends IEntity {
+public interface IRelatedServiceOrderItem extends IServiceOrderItemRef {
 
   /**
-   * The actual type of the target instance when needed for disambiguation.
+   * Hyperlink reference.
    */
-  String getAtReferredType();
+  URI getHref();
+
+  /**
+   * unique identifier.
+   */
+  String getId();
 
   /**
    * action to be performed on the product
@@ -37,22 +42,7 @@ public interface IRelatedServiceOrderItem extends IEntity {
   String getItemAction();
 
   /**
-   * Identifier of the order item where the service was managed.
-   */
-  String getItemId();
-
-  /**
    * role of the service order item for this service.
    */
   String getRole();
-
-  /**
-   * Reference of the related entity.
-   */
-  URI getServiceOrderHref();
-
-  /**
-   * Unique identifier of a related entity.
-   */
-  String getServiceOrderId();
 }

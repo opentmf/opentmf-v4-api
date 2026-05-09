@@ -10,9 +10,9 @@
 
   <artifactId>opentmf-639-v4-api</artifactId>
   <name>opentmf-639-v4-api</name>
-  <version>4.0.0.11-SNAPSHOT</version>
+  <version>4.1.1.11-SNAPSHOT</version>
   <description>
-    TMF-639: Resource Inventory Management API, version: 4.0.0
+    TMF-639: Resource Inventory Management API, version: 4.1.1
     Hierarchical model classes with polymorphism.
   </description>
 
@@ -20,7 +20,7 @@
     <dependency>
       <groupId>org.opentmf.model</groupId>
       <artifactId>opentmf-resource-v4-api</artifactId>
-      <version>4.1.0.11-SNAPSHOT</version>
+      <version>4.1.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 

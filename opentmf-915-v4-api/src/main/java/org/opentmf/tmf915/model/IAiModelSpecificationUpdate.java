@@ -1,6 +1,7 @@
 package org.opentmf.tmf915.model;
 
 import java.util.List;
+import org.opentmf.common.model.IAiContractSpecificationUpdate;
 import org.opentmf.common.model.IFeatureSpecification;
 import org.opentmf.common.model.IResourceSpecificationRef;
 import org.opentmf.common.model.IServiceLevelSpecificationRef;

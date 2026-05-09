@@ -1,5 +1,6 @@
 package org.opentmf.tmf701.model;
 
+import org.opentmf.common.model.ITaskFlowRef;
 
 /**
  * Describes relationship between taskFlow.

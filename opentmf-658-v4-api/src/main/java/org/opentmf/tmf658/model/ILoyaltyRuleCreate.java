@@ -1,6 +1,9 @@
 package org.opentmf.tmf658.model;
 
 import java.util.List;
+import org.opentmf.common.model.ILoyaltyActionRef;
+import org.opentmf.common.model.ILoyaltyConditionRef;
+import org.opentmf.common.model.ILoyaltyEventTypeRef;
 
 /**
  * Loyalty rule, containing conditions, event types and actions.

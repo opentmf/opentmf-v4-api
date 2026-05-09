@@ -2,6 +2,7 @@ package org.opentmf.tmf657.model;
 
 import java.util.List;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IServiceLevelObjectiveRef;
 
 /**
  * A Service Level Specification represents a pre-defined or negotiated set of

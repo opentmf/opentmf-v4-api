@@ -3,6 +3,7 @@ package org.opentmf.tmf664.model;
 import java.util.List;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IHealPolicyRef;
 
 /**
  * Task Resource used to request healing of a Resource Function

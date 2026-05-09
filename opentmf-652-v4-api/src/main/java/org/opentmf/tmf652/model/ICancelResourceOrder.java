@@ -1,6 +1,7 @@
 package org.opentmf.tmf652.model;
 
 import org.opentmf.common.model.ICancelOrder;
+import org.opentmf.common.model.IResourceOrderRef;
 
 /**
  * Request for cancellation an existing resource order.

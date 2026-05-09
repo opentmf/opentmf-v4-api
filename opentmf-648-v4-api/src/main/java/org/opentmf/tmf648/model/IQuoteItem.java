@@ -7,6 +7,7 @@ import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.INote;
 import org.opentmf.common.model.IProductOfferingRef;
 import org.opentmf.common.model.IProductRefOrValue;
+import org.opentmf.common.model.IQuoteItemRelationship;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.customer.model.IProductOfferingQualificationItemRef;
 

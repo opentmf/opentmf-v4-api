@@ -1,6 +1,7 @@
 package org.opentmf.tmf632.model;
 
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.IOrganizationRef;
 
 /**
  * Parent references of an organization in a structure of organizations.

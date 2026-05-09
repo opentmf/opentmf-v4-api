@@ -2,6 +2,7 @@ package org.opentmf.tmf646.model;
 
 import java.util.List;
 import org.opentmf.common.model.IAttachmentRefOrValue;
+import org.opentmf.common.model.ICalendarEventRef;
 import org.opentmf.common.model.IContactMedium;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.INote;
@@ -9,7 +10,6 @@ import org.opentmf.common.model.IRelatedEntity;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IRelatedPlaceRefOrValue;
 import org.opentmf.common.model.ITimePeriod;
-import org.opentmf.customer.model.ICalendarEventRef;
 
 /**
  * An Appointment is an arrangement to do something or meet someone at a

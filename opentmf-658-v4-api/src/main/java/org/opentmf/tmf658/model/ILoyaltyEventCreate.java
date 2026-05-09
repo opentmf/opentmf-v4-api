@@ -3,6 +3,8 @@ package org.opentmf.tmf658.model;
 import java.time.OffsetDateTime;
 import org.opentmf.common.model.IExtensible;
 import org.opentmf.common.model.ILoyaltyProgramMemberRef;
+import org.opentmf.common.model.ILoyaltyProgramPartnerRef;
+import org.opentmf.common.model.ILoyaltyProgramProductRef;
 
 /**
  * A loyalty event notification.

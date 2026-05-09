@@ -1,6 +1,6 @@
 package org.opentmf.general.model;
 
-import java.util.List;
+import java.net.URI;
 
 /**
  * REST resource for test environment provisioning lifecycle.
@@ -19,15 +19,15 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface ITestEnvironmentProvisioningExecution extends IExecution {
+public interface ITestEnvironmentProvisioningExecution extends ITestEnvironmentProvisioningExecutionCreate {
 
   /**
-   * List of: A reference to a managed provisioning artifact resource.
+   * Hyperlink reference.
    */
-  List<? extends IProvisioningArtifactRef> getProvisioningArtifacts();
+  URI getHref();
 
   /**
-   * REST resource for test environment allocation lifecycle.
+   * unique identifier.
    */
-  ITestEnvironmentAllocationExecution getTestEnvironmentAllocationExecution();
+  String getId();
 }

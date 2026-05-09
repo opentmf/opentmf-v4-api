@@ -1,5 +1,6 @@
 package org.opentmf.tmf701.model;
 
+import org.opentmf.common.model.IAssociationSpecRef;
 import org.opentmf.common.model.INamedEntity;
 import org.opentmf.common.model.ITimePeriod;
 

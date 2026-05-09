@@ -1,9 +1,7 @@
 package org.opentmf.tmf663.model;
 
-import java.util.List;
-import org.opentmf.common.model.ICartPriceBase;
 import org.opentmf.common.model.IPrice;
-import org.opentmf.common.model.IPriceAlteration;
+import org.opentmf.common.model.IPriceBase;
 
 /**
  * An amount, usually of money, that represents the actual price paid by the
@@ -19,19 +17,13 @@ import org.opentmf.common.model.IPriceAlteration;
  *
  * @author Gökhan Demir
  */
-public interface ICartPrice extends ICartPriceBase {
+public interface ICartPrice extends IPriceBase {
 
   /**
    * Provides all amounts (tax included, duty free, tax rate), used currency and
    * percentage to apply for Price Alteration.
    */
   IPrice getPrice();
-
-  /**
-   * List of: Is an amount, usually of money, that modifies the price charged for
-   * an order item.
-   */
-  List<? extends IPriceAlteration> getPriceAlterations();
 
   /**
    * Could be minutes, GB...

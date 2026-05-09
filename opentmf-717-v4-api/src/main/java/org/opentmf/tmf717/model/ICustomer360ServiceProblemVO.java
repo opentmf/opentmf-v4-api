@@ -5,6 +5,7 @@ import java.util.List;
 import org.opentmf.common.model.ICharacteristic;
 import org.opentmf.common.model.IEntity;
 import org.opentmf.common.model.IPlace;
+import org.opentmf.common.model.IRelatedEntityRef;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.IResourceRef;
 import org.opentmf.common.model.IServiceProblemRef;

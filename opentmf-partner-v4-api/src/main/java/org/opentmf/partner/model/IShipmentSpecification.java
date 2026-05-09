@@ -1,10 +1,8 @@
 package org.opentmf.partner.model;
 
+import java.net.URI;
 import java.util.List;
-import org.opentmf.common.model.IAssociationBase;
-import org.opentmf.common.model.IAttachmentRefOrValue;
 import org.opentmf.common.model.ICharacteristicSpecification;
-import org.opentmf.common.model.IRelatedParty;
 
 /**
  * Definition of the nature of a Shipment. For example, could be a standard
@@ -20,51 +18,20 @@ import org.opentmf.common.model.IRelatedParty;
  *
  * @author Gökhan Demir
  */
-public interface IShipmentSpecification extends IAssociationBase {
+public interface IShipmentSpecification extends IShipmentSpecificationCreate {
 
   /**
-   * Attachments that may be of relevance to this specification, such as picture,
-   * document, media.
+   * Hyperlink reference.
    */
-  List<? extends IAttachmentRefOrValue> getAttachments();
+  URI getHref();
 
   /**
-   * isBundle determines whether an ShipmentSpecification represents a single
-   * ShipmentSpecification (false), or a bundle of ShipmentSpecification (true).
+   * unique identifier.
    */
-  Boolean getIsBundle();
-
-  /**
-   * Parties who manage or otherwise have an interest in this shipment
-   * specification.
-   */
-  List<? extends IRelatedParty> getRelatedParties();
-
-  /**
-   * Relationship to another shipment specification, might be dependency,
-   * substitution, etc.
-   */
-  List<? extends IShipmentSpecificationRelationship> getShipmentSpecRelationships();
+  String getId();
 
   /**
    * List of characteristics that the shipment can take.
    */
   List<? extends ICharacteristicSpecification> getShipmentSpecificationCharacteristics();
-
-  /**
-   * Possible values for the signature requirement upon receiving the shipment
-   * <br/><p>Recommended values: adult, receiver.
-   */
-  String getSignatureRequiredBy();
-
-  /**
-   * List of characteristics that the shipment can take.
-   */
-  List<? extends ICharacteristicSpecification> getSpecCharacteristics();
-
-  /**
-   * The reference object to the schema and type of target shipment which is
-   * described by shipment specification.
-   */
-  ITargetShipmentSchema getTargetShipmentSchema();
 }

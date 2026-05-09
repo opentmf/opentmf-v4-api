@@ -6,6 +6,7 @@ import org.opentmf.common.model.IAccountBalance;
 import org.opentmf.common.model.IAccountRelationship;
 import org.opentmf.common.model.IContact;
 import org.opentmf.common.model.IExtensible;
+import org.opentmf.common.model.ILoyaltyProgramProductRef;
 import org.opentmf.common.model.IMoney;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.ITaxExemptionCertificate;

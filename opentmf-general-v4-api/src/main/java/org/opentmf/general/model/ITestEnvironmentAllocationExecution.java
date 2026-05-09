@@ -1,7 +1,6 @@
 package org.opentmf.general.model;
 
 import java.net.URI;
-import java.util.List;
 
 /**
  * REST resource for test environment allocation lifecycle.
@@ -20,23 +19,15 @@ import java.util.List;
  *
  * @author Gökhan Demir
  */
-public interface ITestEnvironmentAllocationExecution extends IExecution {
+public interface ITestEnvironmentAllocationExecution extends ITestEnvironmentAllocationExecutionCreate {
 
   /**
-   * A reference to a managed test abstract environment resource.
+   * Hyperlink reference.
    */
-  IAbstractEnvironmentRef getAbstractEnvironment();
+  URI getHref();
 
   /**
-   * List of: Individual mapping from an abstract resource to a list of concrete
-   * resources.
+   * unique identifier.
    */
-  List<? extends IConcreteResourceMapping> getConcreteResourceMappings();
-
-  URI getResourceManagerUrl();
-
-  /**
-   * A reference to a managed test scenario resource.
-   */
-  ITestScenarioRef getTestScenario();
+  String getId();
 }

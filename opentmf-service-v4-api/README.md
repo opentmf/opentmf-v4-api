@@ -3,15 +3,14 @@
 Getter-only Java interfaces for the **Service** common group. Membership follows TM Forum’s official Open API portfolio grouping — see [Open APIs](https://www.tmforum.org/open-digital-architecture/open-apis).
 
 These interfaces are shared across multiple TMF modules:
-
-- TMF-633: Service Catalog Management API, version: 4.0.0
-- TMF-638: Service Inventory Management API, version: 4.0.0
-- TMF-640: Service Activation Management API, version: 4.0.0
-- TMF-641: Service Ordering Management API, version: 4.1.0
-- TMF-645: Service Qualification Management API, version: 4.0.0
-- TMF-653: Service Test Management API, version: 4.2.0
-- TMF-657: Service Quality Management Management API, version: 4.0.0
-- TMF-727: Service Usage Management API, version: 4.0.0
+- TMF-633: Service Catalog Management API, version: 4.1.1
+- TMF-638: Service Inventory Management API, version: 4.1.1
+- TMF-640: Service Activation Management API, version: 4.1.1
+- TMF-641: Service Ordering Management API, version: 4.1.1
+- TMF-645: Service Qualification Management API, version: 4.1.1
+- TMF-653: Service Test Management API, version: 4.1.1
+- TMF-657: Service Quality Management Management API, version: 4.1.1
+- TMF-727: Service Usage Management API, version: 4.1.1
 
 ## Usage
 
@@ -24,6 +23,6 @@ If a direct dependency is required:
 <dependency>
     <groupId>org.opentmf.model</groupId>
     <artifactId>opentmf-service-v4-api</artifactId>
-    <version>4.2.0.10</version>
+    <version>4.1.1</version>
 </dependency>
 ```

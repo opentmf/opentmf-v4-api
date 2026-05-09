@@ -1,6 +1,7 @@
 package org.opentmf.tmf641.model;
 
 import org.opentmf.common.model.ICancelOrder;
+import org.opentmf.common.model.IServiceOrderRef;
 
 /**
  * Request for cancellation an existing Service order.

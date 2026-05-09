@@ -7,6 +7,7 @@ import org.opentmf.common.model.IEntitySpecificationRelationship;
 import org.opentmf.common.model.IPromotionUpdateBase;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.common.model.ITargetEntitySchema;
+import org.opentmf.general.model.IPolicySpecificationRef;
 
 /**
  * MetadataSpecification is a class that describes the specification of a

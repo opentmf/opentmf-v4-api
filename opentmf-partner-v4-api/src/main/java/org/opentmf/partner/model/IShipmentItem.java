@@ -8,6 +8,7 @@ import org.opentmf.common.model.IPrice;
 import org.opentmf.common.model.IProductRefOrValue;
 import org.opentmf.common.model.IProductStockRef;
 import org.opentmf.common.model.IQuantity;
+import org.opentmf.common.model.IReserveProductStockRef;
 
 /**
  *

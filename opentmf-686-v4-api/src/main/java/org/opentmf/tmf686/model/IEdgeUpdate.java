@@ -2,7 +2,8 @@ package org.opentmf.tmf686.model;
 
 import java.util.List;
 import org.opentmf.common.model.ICharacteristic;
-import org.opentmf.general.model.IEdgeCreateBase;
+import org.opentmf.common.model.IVertexRef;
+import org.opentmf.general.model.IEdgeBase;
 
 /**
  * Edge is a directed edge connecting vertices in a directed Graph.
@@ -17,7 +18,7 @@ import org.opentmf.general.model.IEdgeCreateBase;
  *
  * @author Gökhan Demir
  */
-public interface IEdgeUpdate extends IEdgeCreateBase {
+public interface IEdgeUpdate extends IEdgeBase {
 
   /**
    * Indicates if this Edge is birectional (true) or unidirection originating from
@@ -40,10 +41,6 @@ public interface IEdgeUpdate extends IEdgeCreateBase {
    * EdgeSpecification.
    */
   IEdgeSpecificationRef getEdgeSpecification();
-
-  IGraphRef getGraph();
-
-  IGraphRef getSubGraph();
 
   /**
    * Graph Vertices connected by this Edge.

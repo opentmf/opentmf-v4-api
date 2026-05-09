@@ -4,7 +4,7 @@ import java.time.OffsetDateTime;
 import java.util.List;
 import org.opentmf.common.model.IAttachmentRefOrValue;
 import org.opentmf.common.model.ICharacteristic;
-import org.opentmf.common.model.IMEntityBase;
+import org.opentmf.common.model.IEntity;
 import org.opentmf.common.model.INote;
 import org.opentmf.common.model.IRelatedParty;
 import org.opentmf.general.model.IEntityRelationship;
@@ -28,7 +28,7 @@ import org.opentmf.general.model.IEntitySpecificationRef;
  *
  * @author Gökhan Demir
  */
-public interface IManagedEntity extends IMEntityBase {
+public interface IManagedEntity extends IEntity {
 
   /**
    * Attachments that may be of relevance to this entity, such as picture,
@@ -48,6 +48,11 @@ public interface IManagedEntity extends IMEntityBase {
   String getContext();
 
   /**
+   * free-text description of the entity.
+   */
+  String getDescription();
+
+  /**
    * A date time( DateTime). The date till the entity is effective.
    */
   OffsetDateTime getEndDate();
@@ -63,10 +68,21 @@ public interface IManagedEntity extends IMEntityBase {
   IEntitySpecificationRef getEntitySpecification();
 
   /**
+   * isBundle determines whether an entity represents a single entity (false), or
+   * a bundle of entities(true).
+   */
+  Boolean getIsBundle();
+
+  /**
    * isExternal determines whether an entity represents an external entity in the
    * inventory.
    */
   Boolean getIsExternal();
+
+  /**
+   * A string used to give a name to the entity.
+   */
+  String getName();
 
   /**
    * List of: Extra information about a given entity.
@@ -78,6 +94,16 @@ public interface IManagedEntity extends IMEntityBase {
    * linked to a specific entity.
    */
   List<? extends IRelatedParty> getRelatedParties();
+
+  /**
+   * A date time( DateTime). The date from which the entity is effective.
+   */
+  OffsetDateTime getStartDate();
+
+  /**
+   * The life cycle state of the entity.
+   */
+  String getStatus();
 
   /**
    * A date time( DateTime). The date that the entity status changed.

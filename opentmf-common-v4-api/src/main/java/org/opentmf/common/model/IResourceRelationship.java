@@ -28,7 +28,7 @@ package org.opentmf.common.model;
  *
  * @author Gökhan Demir
  */
-public interface IResourceRelationship extends ICharacteristicRelationship {
+public interface IResourceRelationship extends IWarrantyRelationship {
 
   /**
    * Resource is an abstract entity that describes the common set of attributes
